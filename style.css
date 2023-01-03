@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    margin-left:30px;
+}
+input{
+    margin: 10px;
+    width: 250px;
+    height:30px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgb(63, 5, 121); 
+}
+input:hover{
+    background-color: rgba(235, 101, 5, 0.114);
+}
+.table{
+    position:relative;
+    margin-left: 40%;
+    margin-top: -20%;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(156, 210, 214);
+    border: 2px solid rgb(207, 43, 43);
+}
+th{
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border-style: none;
+} 
+.as{
+    width: 0px;
+    height: 130px;
+    border-radius: 10px;
+    border-color: white;
+    margin-left: 110px;
+}
+.as :hover{ 
+    color: brown;
+}
+#name{
+    margin-left: 110px;
+}
+#email{
+    margin-left: 90px;
+}
+#number{
+    margin-left: 70px;
+}
+#message{
+    margin-left: 60px;
+}
+.mm h1{
+    text-align: center;
+    color: rgb(36, 90, 90);
+}
